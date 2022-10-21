@@ -7,7 +7,7 @@ const Icon = ({name}) => {
             switch (name) {
                 case "circle":
                    return <FaRegCircle className="icons"/>
-                     case "Times":
+                     case "cross":
                    return <FaTimes className="icons"/>
                      default:
                    return   <FaPen className="icons"/>
